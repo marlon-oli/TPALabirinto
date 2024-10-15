@@ -117,7 +117,7 @@ public class Labirinto {
     }
 
     private void carregarLabirinto() {
-        String arquivo = "C:\\Users\\marlo\\Documents\\GitHub\\intellij\\TPALabirinto\\maze.csv";
+        String arquivo = "maze20x20.csv";
 
         try (BufferedReader br = new BufferedReader(new FileReader(arquivo))) {
             String line = br.readLine();
